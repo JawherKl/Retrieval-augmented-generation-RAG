@@ -14,7 +14,7 @@ Retrieval-Augmented Generation (RAG) is a powerful framework that enhances the c
 ## ⚙️ How RAG Works
 RAG combines two key processes:
 
-1. **Retrieval**:
+1. **Retrieval**: 
    - Queries an external knowledge base (e.g., vector database, search index) to fetch relevant documents.
    - Utilizes embeddings and similarity search to find contextually relevant data.
 
@@ -79,6 +79,29 @@ This enables the model to dynamically retrieve up-to-date facts and generate res
 
 ---
 
+## 📂 Repository Structure
+```
+rag-explained/
+│── README.md                # Overview of RAG  
+│── docs/                    
+│   ├── 01-introduction.md    # Deep dive into RAG fundamentals  
+│   ├── 02-how-it-works.md    # Detailed breakdown of retrieval & generation  
+│   ├── 03-components.md      # In-depth look at retrievers, generators, embeddings  
+│   ├── 04-applications.md    # Real-world use cases with examples  
+│   ├── 05-comparison.md      # RAG vs Traditional LLMs - case studies  
+│   ├── 06-challenges.md      # Technical challenges and possible solutions  
+│   ├── 07-future.md          # Where RAG is heading  
+│── code-examples/           
+│   ├── simple_rag.py         # Basic RAG implementation  
+│   ├── advanced_rag.ipynb    # Notebook with real-world examples  
+│   ├── retriever.py          # Implementing a retriever from scratch  
+│── datasets/                 # Sample datasets for testing retrieval  
+│── references/               # Papers, blogs, and further learning resources  
+│── CONTRIBUTING.md           # How others can contribute  
+```
+
+---
+
 ## 📚 Resources & Further Reading
 
 - [Retrieval-Augmented Generation (Meta AI)](https://ai.facebook.com/blog/retrieval-augmented-generation-streamlining-the-creation-of-intelligent-natural-language-processing-models/)
@@ -89,3 +112,4 @@ This enables the model to dynamically retrieve up-to-date facts and generate res
 ---
 
 💡 **Contributions are welcome!** If you have suggestions, feel free to submit a pull request. 🚀
+
