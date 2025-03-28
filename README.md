@@ -1,7 +1,8 @@
 # Retrieval-Augmented Generation (RAG)
 
 ## 📌 Introduction
-Retrieval-Augmented Generation (RAG) is a powerful framework that enhances the capabilities of large language models (LLMs) by incorporating external knowledge retrieval. Unlike traditional LLMs, which rely solely on pre-trained knowledge, RAG fetches relevant information from a knowledge source (such as databases or documents) to generate more accurate, context-aware, and up-to-date responses.
+Retrieval-Augmented Generation (RAG) is a powerful framework that enhances the capabilities of large language models (LLMs) by incorporating external knowledge retrieval. 
+Unlike traditional LLMs, which rely solely on pre-trained knowledge, RAG fetches relevant information from a knowledge source (such as databases or documents) to generate more accurate, context-aware, and up-to-date responses.
 
 ### Why Use RAG?
 - ✅ **Overcomes Knowledge Cutoff**: Provides real-time and up-to-date information.
@@ -22,6 +23,8 @@ RAG combines two key processes:
    - Passes the retrieved information to a language model.
    - Generates responses based on both retrieved knowledge and internal model capabilities.
 
+![RAG-works-phases](assets/RAG-works-phases.png)
+
 This enables the model to dynamically retrieve up-to-date facts and generate responses grounded in external knowledge.
 
 ---
@@ -33,10 +36,12 @@ This enables the model to dynamically retrieve up-to-date facts and generate res
 3. **Knowledge Base**: A structured or unstructured data repository (e.g., databases, document stores, vector databases).
 4. **Embedding Model**: Converts text into vector representations for efficient search and retrieval.
 
+![RAG-info](assets/RAG-info.png)
+
 ### 🏆 Benefits of RAG
 - 🚀 **Scalability**: Works with large datasets without needing extensive retraining.
 - 🔍 **Fact-Based Responses**: Reduces the risk of misinformation.
-- ⚡ **Adaptive Learning**: Can dynamically update its knowledge base without modifying the core model.
+- ⚡  **Adaptive Learning**: Can dynamically update its knowledge base without modifying the core model.
 - 🌎 **Multidomain Applications**: Works for legal, medical, finance, and other industries.
 
 ---
