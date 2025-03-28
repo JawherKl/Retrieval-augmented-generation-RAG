@@ -37,7 +37,7 @@ def simple_rag_pipeline(query):
     retrieved_docs = retrieve_relevant_docs(query)
     context = " ".join(retrieved_docs)
     prompt = f"Context: {context}\nQuestion: {query}\nAnswer:"
-    response = generator(prompt, max_length=50, num_return_sequences=1)
+    response = generator(prompt, max_length=255, num_return_sequences=1)
     return response[0]['generated_text']
 
 # 8️⃣ Test the script
