@@ -25,7 +25,7 @@ RAG combines two key processes:
    - Passes the retrieved information to a language model.
    - Generates responses based on both retrieved knowledge and internal model capabilities.
 
-![RAG-works-phases](assets/RAG-works-phases.png)
+![RAG-phases](assets/RAG-phases.png)
 
 This enables the model to dynamically retrieve up-to-date facts and generate responses grounded in external knowledge.
 
