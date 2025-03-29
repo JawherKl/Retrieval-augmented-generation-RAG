@@ -5,7 +5,7 @@
 3. **Knowledge Base**: A structured or unstructured data repository (e.g., databases, document stores, vector databases).
 4. **Embedding Model**: Converts text into vector representations for efficient search and retrieval.
 
-![RAG-info](assets/RAG-info.png)
+![RAG-info](../assets/RAG-info.png)
 
 ### 🏆 Benefits of RAG
 - 🚀 **Scalability**: Works with large datasets without needing extensive retraining.
